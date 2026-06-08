@@ -43,6 +43,7 @@ python 01_basic_request.py
 | `09_tool_use_multi.py` | Два инструмента + выбор | Claude сам выбирает нужный инструмент; перебор всех блоков `tool_use` (не только первого) |
 | `10_agent_loop.py` | Agent loop | цикл `while`: несколько раундов `tool_use`, пока Claude не даст финальный ответ |
 | `11_eval_robust.py` | Хрупкий vs надёжный парсинг | как `stop_sequences=['}']` падает на скобке внутри текста, и как чинить |
+| `12_structured_output_robust.py` | Надёжный structured output | через схему: Structured Outputs (`output_config`) и tool use (`input_schema`) — модель обязана вернуть структуру |
 
 ## Ключевые выводы
 
